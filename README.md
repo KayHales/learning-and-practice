@@ -11,9 +11,9 @@ It's a learning repo, not a portfolio. Expect unfinished chapters, dead ends, an
 
 One directory per book. Will update the table below as I continue
 
-| Book | Author | Progress |
+| Book | Author 
 |---|---|---|
-| *title* | *author* | Ch. x of xx |
+| *Regression and other stories* | *Solomon Kurtz* 
 
 ## Reproducing
 
@@ -25,7 +25,7 @@ renv::restore()
 
 ## Credit
 
-The code here follows the source texts closely by design — that's the point of the exercise. All credit for the original material belongs to the authors, cited in each book directory's README. Where I've deviated, adapted, or gotten something wrong, that's mine.
+The code here follows the source texts closely by design. All credit for the original material belongs to the authors, cited above. Where I've deviated, adapted, or gotten something wrong, that's mine.
 
 ## Contact
 
