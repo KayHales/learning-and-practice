@@ -24,8 +24,7 @@ renv::restore()
 ```
 
 ## Credit
-
-The code here follows the source texts closely by design. All credit for the original material belongs to the authors, cited above. Where I've deviated, adapted, or gotten something wrong, that's mine.
+The code here follows the source texts closely by design. All credit for the original material belongs to the authors, cited above and in each book directory's README. Where I've deviated, adapted, or gotten something wrong, that's mine. Citations will be provided for each book used.
 
 ## Contact
 
