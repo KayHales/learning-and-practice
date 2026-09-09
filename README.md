@@ -13,7 +13,7 @@ One directory per book. Will update the table below as I continue
 
 | Book | Author 
 |---|---|---|
-| *Regression and other stories* | *Solomon Kurtz* 
+| *Regression and other stories* | *Gelman, Hill, & Kehtari (following Solomon Kurtz's Working Through GitHub as well)* 
 
 ## Reproducing
 
