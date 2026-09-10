@@ -54,7 +54,8 @@ fitted(m1.1,
   geom_point(data = hibbs) +
   annotate(geom = "text",
            x = 2.5, y = 53,
-           label = str_c("y==", round(fixef(m1.1)[1, 1], digits = 1), "+", round(fixef(m1.1)[2, 1], digits = 1), "*x"),
+           label = str_c("y==", round(fixef(m1.1)[1, 1], digits = 1), "+",
+                         round(fixef(m1.1)[2, 1], digits = 1), "*x"),
            hjust = 0, parse = T) +
   scale_x_continuous(labels = function(x) str_c(x, "%")) +
   scale_y_continuous(labels = function(x) str_c(x, "%")) +
@@ -62,4 +63,3 @@ fitted(m1.1,
        x = "Average recent growth in personal income",
        y = "Incumbent party's vote share")
 
-# Why learn regression? 
