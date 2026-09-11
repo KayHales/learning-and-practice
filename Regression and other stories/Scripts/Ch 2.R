@@ -62,7 +62,7 @@ left_join(hdi,
           votes |> mutate(state = st_state),
           by = "state") |> 
   filter(st_year == "2000") |> 
-  mutate(income_rank = min_rank(st_income), # give values ranks; e.g., c(90, 92, 99) = c(3, 2, 1)
+  mutate(rank_income = min_rank(st_income), # give values ranks; e.g., c(90, 92, 99) = c(3, 2, 1)
          hdi_rank = min_rank(hdi)) |> 
   select(st_stateabb, income_rank, hdi_rank) |> 
   arrange(desc(hdi_rank))
