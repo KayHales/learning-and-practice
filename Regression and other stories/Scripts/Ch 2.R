@@ -65,7 +65,7 @@ left_join(hdi,
   mutate(income_rank = min_rank(st_income), # give values ranks; e.g., c(90, 92, 99) = c(3, 2, 1)
          hdi_rank = min_rank(hdi)) |> 
   select(st_stateabb, income_rank, hdi_rank) |> 
-  arrange(desc(hdi_rank))
+  arrange(desc(income_rank))
 
 # hdi and income seem to correlate decently high or, visually:
 left_join(hdi,
